@@ -1,18 +1,13 @@
 #include <Arduino.h>
-
-// put function declarations here:
-int myFunction(int, int);
+#include <displayControl.h>
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  char * degreeSymbol  = new char(247);
+  displayInit();
+  displayString("Temp: 32" + String(degreeSymbol) + "C");
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
 }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
