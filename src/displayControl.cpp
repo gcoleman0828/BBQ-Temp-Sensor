@@ -28,18 +28,6 @@ void displayString(String displayString){
 
 }
 
-void displayString(char displayString){
-    displayClear();
-    display.setTextSize(2);
-    display.setTextColor(SSD1306_WHITE);
-    display.setCursor(0,0);
-    display.print(displayString);
-   /* display.print("Temp: 32");
-    display.print(char(247));
-    display.print("C");*/
-    display.display();
-
-}
 void displayClear(){
     display.clearDisplay();
 }

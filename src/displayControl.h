@@ -7,5 +7,4 @@
 
 void displayInit();
 void displayString(String);
-void displayString(char);
 void displayClear();
