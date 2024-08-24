@@ -9,6 +9,7 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 void displayInit(){
+   Wire.begin();
    
     if(!display.begin(SSD1306_SWITCHCAPVCC,SCREEN_ADDRESS)){
         for(;;);
