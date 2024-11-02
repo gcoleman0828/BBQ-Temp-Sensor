@@ -3,6 +3,10 @@
 		{
 			"name": "BBQ-Temp-Sensor",
 			"path": ".."
+		},
+		{
+			"name": "Node-Blink",
+			"path": "C:/Users/Gregg Coleman/Documents/PlatformIO/Projects/Node-Blink"
 		}
 	],
 	"settings": {}
